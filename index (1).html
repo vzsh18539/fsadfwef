@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalendarz adwentowy</title>
+    <style>
+        body{
+            background-image: url('360_F_649484598_3oTrOBYW2HwbMc3KU0a3GZ17xf7naxCd.jpg'); 
+  background-repeat: repeat; 
+  background-size: auto; 
+        }
+        .kalendarz {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr); 
+            gap: 10px;
+            width: 500px;
+            margin: 50px auto;
+        }
+
+        .dzien {
+            width: 70px;
+            height: 70px;
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            cursor: pointer;
+            position: relative;
+            border: 2px solid #000;
+            border-radius: 8px;
+        }
+
+        .popup {
+            display: none;
+            position: absolute;
+            top: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #f4a261;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            font-size: 14px;
+            width: 100px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .dzien:hover .popup {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+
+
+     <div class="kalendarz">
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                1
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                2
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                3
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                4
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                5
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                6
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                7
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                8
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                9
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                10
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                11
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                12
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                13
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                14
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                15
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                16
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                17
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                18
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                19
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                20
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                21
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                22
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                23
+            </a>
+        </div>
+        <div class="dzien">
+            <a href="https://img.freepik.com/premium-zdjecie/3d-render-balwana-w-zimowym-lesie-z-platkami-sniegu_930198-7330.jpg" target="_blank">
+                24
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
